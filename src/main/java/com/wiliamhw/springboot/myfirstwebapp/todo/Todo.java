@@ -50,11 +50,11 @@ public class Todo {
         this.targetDate = targetDate;
     }
 
-    public boolean isDate() {
+    public boolean isDone() {
         return done;
     }
 
-    public void setDate(boolean done) {
+    public void setDone(boolean done) {
         this.done = done;
     }
 
