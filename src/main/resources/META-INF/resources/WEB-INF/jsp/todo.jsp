@@ -13,6 +13,7 @@
                 <div class="flex-row">
                     <div>Description:</div>
                     <form:input type="text" name="description" path="description" required="required"/>
+                    <form:errors path="description" cssClass="text-warning"/>
                     <form:input type="hidden" path="id"/>
                     <form:input type="hidden" path="done"/>
                 </div>
