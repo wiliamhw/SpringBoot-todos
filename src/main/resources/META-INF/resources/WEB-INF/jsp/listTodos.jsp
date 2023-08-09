@@ -5,7 +5,6 @@
     <table class="table align-middle">
         <thead>
             <tr>
-                <th>id</th>
                 <th>Description</th>
                 <th>Target Date</th>
                 <th>Is Done?</th>
