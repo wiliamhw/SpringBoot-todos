@@ -52,6 +52,7 @@ public class TodoControllerJpa {
     @RequestMapping(value = "update-todo", method = RequestMethod.GET)
     public String edit(ModelMap model, @RequestParam int id) {
         Todo todo = todoRepository.findById(id).get();
+        todo.setDone(false);
         model.addAttribute("todo", todo);
         return "todo";
     }
