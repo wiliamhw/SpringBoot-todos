@@ -16,6 +16,12 @@
                 <form:errors path="targetDate" cssClass="text-warning"/>
             </fieldset>
 
+            <fieldset class="mb-3">
+                <form:label path="done" cssStyle="padding-right: 30px">Is Done?</form:label>
+                <form:checkbox path="done"/>
+                <form:errors path="done" cssClass="text-warning"/>
+            </fieldset>
+
             <form:input type="hidden" path="id"/>
             <form:input type="hidden" path="done"/>
         </div>
