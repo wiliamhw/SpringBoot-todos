@@ -8,5 +8,6 @@ Simple Todos web.
 * Spring Boot 3.0.0 M4
 * H2 database
 * MySQL
+* JSP
 * JSTL
 * Spring JPA
